@@ -74,3 +74,9 @@ jobs:
     - name: run app to test
       run: .\HelloWorld\bin\Debug\net8.0\HelloWorld.exe
 
+    - name: Build debug_test
+      run: dotnet build .\debug_test\
+
+    - name: run app to test
+      run: .\debug_test\bin\Debug\net8.0\debug_test.exe
+
